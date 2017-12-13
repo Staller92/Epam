@@ -1,0 +1,18 @@
+! [checkPageTitle "Onliner.by"] 0,000 sec
++ [open "https://www.onliner.by" "3,000"] 1,163 sec
++ [checkPageTitle "Onliner.by"] 0,015 sec
++ [checkLinkPresentByHref "https://gc.onliner.by/favicon.ico"] 0,014 sec
++ [checkLinkPresentByName "Барахолка"] 0,059 sec
+! [checkPageContains "Создатель журнала «Каламбур» о черном юморе и бешеной популярности в 2000-х"] 0,032 sec
++ [open "https://www.rambler.ru" "4,000"] 0,535 sec
+! [checkPageTitle "Onliner.by"] 0,016 sec
++ [checkPageTitle "Рамблер — медийный портал"] 0,004 sec
+! [checkLinkPresentByHref "http://www.w3.org/2000/svg"] 0,040 sec
+! [checkLinkPresentByName "Создатель журнала «Каламбур» о черном юморе и бешеной популярности в 2000-х"] 0,018 sec
+! [checkPageContains "Ваш новый персональный Рамблер"] 0,010 sec
+STATISTICS:
+Total tests: 12
+Passed/Failed: 6/6
+Total time: 1,908 sec
+Average time: 0,159 sec
+Log was saved to src/webster/resources/log.txt

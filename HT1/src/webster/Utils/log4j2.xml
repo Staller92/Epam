@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration>
+    <Appenders>
+        <Console name="Console" target="System.out">
+            <PatternLayout pattern="%5p | %d{yyy-MM-dd HH:mm:ss.SSS} | %m%n"/>
+        </Console>
+      <!--   <File name="File" fileName="src/webster/resources/defaultLog.txt" immediateFlush="false" append="false" >
+             <PatternLayout pattern="%m%n"/>
+         </File>-->
+    </Appenders>
+    <Loggers>
+        <!-- Корневой логгер -->
+        <Root level="all">
+            <AppenderRef level="all" ref="Console"/>
+        </Root>
+       <!-- <logger name="webster" level="all">
+            <AppenderRef level="info" ref="File"/>
+        </logger>-->
+    </Loggers>
+</Configuration>

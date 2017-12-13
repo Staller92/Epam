@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PHP_my_admin_test_suit">
+    <test name="DataBaseCreationTest">
+        <classes>
+            <class name="com.likhtarovich.DataBaseCreationTest"/>
+        </classes>
+    </test>
+</suite>

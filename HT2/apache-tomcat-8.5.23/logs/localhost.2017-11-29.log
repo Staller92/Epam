@@ -1,0 +1,346 @@
+29-Nov-2017 00:25:24.927 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 00:25:24.928 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 00:30:20.078 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 00:30:20.079 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 00:39:56.396 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/jsp/List.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+34:         </td>
+35:     </tr>
+36:     <%
+37:         }
+38:     %>
+39: 
+40:     <tr>
+
+
+An error occurred at line: [53] in the jsp file: [/jsp/List.jsp]
+phonebook cannot be resolved
+50:     </tr>
+51: 
+52:     <%
+53:         for (Person person : phonebook.getContents().values()) {
+54: 
+55:     %>
+56:     <tr>
+
+
+An error occurred at line: [230] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [232] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [232] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [235] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [236] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [238] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [241] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [241] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [244] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [245] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:467)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at app.ManagePersonServlet.doGet(ManagePersonServlet.java:82)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+29-Nov-2017 00:39:56.441 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ManagePersonServlet] in context with path [/mywebapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/jsp/List.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+34:         </td>
+35:     </tr>
+36:     <%
+37:         }
+38:     %>
+39: 
+40:     <tr>
+
+
+An error occurred at line: [53] in the jsp file: [/jsp/List.jsp]
+phonebook cannot be resolved
+50:     </tr>
+51: 
+52:     <%
+53:         for (Person person : phonebook.getContents().values()) {
+54: 
+55:     %>
+56:     <tr>
+
+
+An error occurred at line: [230] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [232] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [232] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [235] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [236] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [238] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [241] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [241] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [244] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [245] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/jsp/List.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+34:         </td>
+35:     </tr>
+36:     <%
+37:         }
+38:     %>
+39: 
+40:     <tr>
+
+
+An error occurred at line: [53] in the jsp file: [/jsp/List.jsp]
+phonebook cannot be resolved
+50:     </tr>
+51: 
+52:     <%
+53:         for (Person person : phonebook.getContents().values()) {
+54: 
+55:     %>
+56:     <tr>
+
+
+An error occurred at line: [230] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [232] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [232] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [235] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [236] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [238] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [241] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [241] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [244] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [245] in the generated java file: [C:\Users\LIKHTAROVICH\IdeaProjects\project2\apache-tomcat-8.5.23\work\Catalina\localhost\mywebapp\org\apache\jsp\jsp\List_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:601)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:467)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at app.ManagePersonServlet.doGet(ManagePersonServlet.java:82)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+29-Nov-2017 01:00:47.177 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ManagePersonServlet] in context with path [/mywebapp] threw exception
+ java.lang.NullPointerException
+	at app.ManagePersonServlet.doPost(ManagePersonServlet.java:220)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+29-Nov-2017 17:44:20.059 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 17:44:20.060 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 17:54:07.499 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 17:54:07.499 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 18:00:44.720 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 18:00:44.720 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 21:27:45.306 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 21:27:45.306 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 21:34:32.450 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 21:34:32.450 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 21:36:52.060 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 21:36:52.060 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 21:39:33.444 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 21:39:33.444 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 21:49:30.014 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 21:49:30.014 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 21:52:52.166 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 21:52:52.166 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 22:38:20.636 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 22:38:20.636 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 22:42:10.334 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 22:42:10.334 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 22:44:12.228 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 22:44:12.228 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 22:49:06.190 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 22:49:06.190 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 22:58:45.833 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 22:58:45.833 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 23:03:47.428 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 23:03:47.428 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 23:08:18.157 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 23:08:18.157 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 23:09:25.773 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 23:09:25.773 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 23:12:03.034 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 23:12:03.034 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Nov-2017 23:14:59.503 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Nov-2017 23:14:59.504 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
